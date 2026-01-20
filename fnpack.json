@@ -3,7 +3,7 @@
     "display_name": "toolsplus",
     "desc": "主要功能为个人便签速记，轻量级多设备定时任务管理。它基于 Vue 3 和 Python3 构建，旨在为开发、多设备用户提供集中定时任务管理、以及事项备忘。\n",
     "labels": "工具,效率",
-    "version": "2.1.13",
+    "version": "2.0.0",
     "author": "CHRPLUS",
     "author_url": "https://github.com/upchr",
     "bug_report_url": "https://github.com/upchr/FnDepot/issues",
