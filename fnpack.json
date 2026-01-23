@@ -3,7 +3,7 @@
     "display_name": "toolsplus",
     "desc": "主要功能为个人便签速记，轻量级多设备定时任务管理。它基于 Vue 3 和 Python3 构建，旨在为开发、多设备用户提供集中定时任务管理、以及事项备忘。\n",
     "labels": "工具,效率",
-    "version": "2.2.3",
+    "version": "2.2.5",
     "author": "CHRPLUS",
     "author_url": "https://github.com/upchr",
     "bug_report_url": "https://github.com/upchr/FnDepot/issues",
@@ -20,7 +20,8 @@
       "v2.1.17": "便签、定时任务管理（v2.1.17）,多平台x86、arm支持",
       "v2.2.0": "便签、定时任务管理（v2.2.0）",
       "v2.2.2": "便签、定时任务管理（v2.2.2）",
-      "v2.2.3": "便签、定时任务管理（v2.2.3）"
+      "v2.2.3": "便签、定时任务管理（v2.2.3）",
+      "v2.2.5": "便签、定时任务管理（v2.2.5）"
     }
   }
 }
