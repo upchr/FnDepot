@@ -7,7 +7,7 @@
 
 > 轻量级多设备定时任务管理、通知 + 个人便签速记
 
-[![GitHub](https://img.shields.io/badge/项目源码-181717?logo=github)](https://github.com/upchr/FnDepot/tree/main/toolsplus)
+[![GitHub](https://img.shields.io/badge/项目源码-181717?logo=github)](https://github.com/upchr/mytool)
 
 ### 🎯 项目背景
 基于 Vue 3 和 Python3 构建，为开发者和多设备用户提供集中式定时任务管理及个人备忘服务，解决跨设备任务同步和通知问题。
