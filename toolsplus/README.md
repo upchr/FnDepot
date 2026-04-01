@@ -1,4 +1,4 @@
-## 📦 ToolsPlus 项目
+## 📦 ToolsPlus 项目（[体验地址](https://upchr.github.io/mytool/)->密码：mytool123）
 
 ![status](https://img.shields.io/badge/状态-推进中-success)
 ![version](https://img.shields.io/badge/version-3.1.3-blue)
