@@ -5,7 +5,7 @@
       "all"
     ],
     "version": "3.6.3",
-    "desc": "便签速记、轻量级多设备定时任务管理及结果消息通知。\n基于Vue3和Python3构建，旨在解决多设备、任务管理记忆困难的痛点。\n注意：本项目默认需要 16688 端口才可正常工作。",
+    "desc": "便签速记、轻量级多设备定时任务管理及结果消息通知。\n基于Vue3和Python3构建，旨在解决多设备、任务管理记忆困难的痛点。\n注意：本项目默认需要 16688 端口才可正常工作。\n体验地址：https://upchr.github.io/mytool，默认密码：mytool123",
     "distributor": "CHRPLUS",
     "distributor_url": "https://github.com/upchr/FnDepot",
     "bug_report_url": "https://github.com/upchr/FnDepot/issues",
