@@ -10,8 +10,12 @@
     "toolsplus": {
       "display_name": "ToolsPlus",
       "desc": "便签速记、轻量级多设备定时任务管理及结果消息通知。\n基于Vue3和Python3构建，旨在解决多设备、任务管理记忆困难的痛点，可配置工作流处理任务。\n注意：本项目默认需要 16688 端口才可正常工作。\n体验地址：https://upchr.github.io/mytool，默认密码：mytool123",
-      "platform": ["all"],
-      "categories": ["系统工具"],
+      "platform": [
+        "all"
+      ],
+      "categories": [
+        "系统工具"
+      ],
       "icon_url": "./toolsplus/ICON.PNG",
       "preview_urls": [
         "./toolsplus/Preview/1.png",
@@ -44,14 +48,30 @@
               "size": 484833
             }
           }
+        },
+        "3.6.7": {
+          "changelog": "便签、定时任务管理（v3.6.7）",
+          "updated_at": "2026-11-06T03:59:10Z",
+          "packages": {
+            "all": {
+              "download_url": "./toolsplus/toolsplus.fpk",
+              "sha256": "9607c39007024f5619e7a9ae07025820fa30bd119e343468bfba22154850d3a3",
+              "size": 484842
+            }
+          }
         }
       }
     },
     "meow": {
       "display_name": "猫窝 Meow",
       "desc": "跨端影视客户端（Web / PC / TV 一套内核）。后端负责加载第三方内容源、聚合搜索、弹幕聚合与代理播放。<br>本项目不提供任何内容源，影视内容与站点配置由用户自行导入。",
-      "platform": ["x86", "arm"],
-      "categories": ["影音娱乐"],
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "影音娱乐"
+      ],
       "icon_url": "./meow/ICON.PNG",
       "readme_url": "./meow/README.md",
       "bug_report_url": "https://github.com/upchr/meow/issues",
