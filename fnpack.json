@@ -43,7 +43,7 @@
           "updated_at": "2026-09-18T04:57:05Z",
           "packages": {
             "all": {
-              "download_url": "./toolsplus/toolsplus.fpk",
+              "download_url": "./toolsplus/toolsplus_3.6.6.fpk",
               "sha256": "6f54dc44ccd37da4aebfd6159a7f3ca67c707c2dc8637bae3db063bc3fa0ee88",
               "size": 484833
             }
@@ -54,7 +54,7 @@
           "updated_at": "2026-11-06T03:59:10Z",
           "packages": {
             "all": {
-              "download_url": "./toolsplus/toolsplus.fpk",
+              "download_url": "./toolsplus/toolsplus_3.6.7.fpk",
               "sha256": "9607c39007024f5619e7a9ae07025820fa30bd119e343468bfba22154850d3a3",
               "size": 484842
             }
