@@ -100,6 +100,23 @@
               "size": 12216174
             }
           }
+        },
+        "1.0.9": {
+          "changelog": "由 fpk.yml 自动发布：x86 / arm 双架构，依赖 java-21-openjdk。",
+          "updated_at": "2026-11-06T05:38:51Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.0.9_x86.fpk",
+              "sha256": "452b27ccdb93326f12eb002dbfdbad3f1e8ce81c5ca1e2b3d5ae92bf2745fb94",
+              "size": 12234513
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.0.9_arm.fpk",
+              "sha256": "8c452d8a4c8c73271ebaf38a150a99cbbfe54ae27efc95aeae58f1b53b128781",
+              "size": 12201819
+            }
+          }
         }
       }
     }
