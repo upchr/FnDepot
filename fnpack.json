@@ -134,8 +134,8 @@
           "packages": {
             "x86": {
               "download_url": "./meow/meow_1.1.4_x86.fpk",
-              "sha256": "0cf4316069ab191015e4de1fcffea6c11230701b1e83b6bb42f627657081f40f",
-              "size": 19607900
+              "sha256": "0c93b00f6c2e0645e7a16c7897e6727531e9b496c56499d21c2be4070b002dab",
+              "size": 19608563
             }
           }
         }
