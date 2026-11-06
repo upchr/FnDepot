@@ -64,16 +64,25 @@
     },
     "meow": {
       "display_name": "猫窝 Meow",
-      "desc": "跨端影视客户端（Web / PC / TV 一套内核）。后端负责加载第三方内容源、聚合搜索、弹幕聚合与代理播放。<br>本项目不提供任何内容源，影视内容与站点配置由用户自行导入。",
+      "desc": "跨端影视应用，前后端一体！服务端加载第三方内容源、聚合搜索、弹幕聚合与代理播放。支持作为Web / PC / TV 客户端的服务端使用。<br>本项目不提供任何内容源，影视内容与站点配置由用户自行导入。",
       "platform": [
         "x86",
         "arm"
       ],
       "categories": [
-        "影音娱乐"
+        "影音娱乐",
+        "AI赋能",
+        "生活服务"
       ],
       "icon_url": "./meow/ICON.PNG",
       "readme_url": "./meow/README.md",
+      "preview_urls": [
+        "./meow/Preview/1.png",
+        "./meow/Preview/2.png",
+        "./meow/Preview/3.png",
+        "./meow/Preview/4.png",
+        "./meow/Preview/5.png"
+      ],
       "bug_report_url": "https://github.com/upchr/meow/issues",
       "maintainer": "CHRPLUS",
       "maintainer_url": "https://github.com/upchr/meow",
