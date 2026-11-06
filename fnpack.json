@@ -111,7 +111,7 @@
           }
         },
         "1.0.9": {
-          "changelog": "由 fpk.yml 自动发布：x86 / arm 双架构，依赖 java-21-openjdk。",
+          "changelog": "1. 新增飞牛 fnOS 原生应用，NAS 上不装 Docker 也能直接装猫窝\n2. 提供 x86 和 arm 双架构包，应用中心按机器架构自动匹配\n3. 发版后自动回写 FnDepot 应用源，应用中心里能收到后续更新\n4. 电视网关内置弹幕模块，不用另开电脑也能跑弹幕服务\n5. 设置里新增运行时模块入口，模块支持在线更新不用重装 APK\n6. 直播页横屏单击画面呼出频道面板，投影仪全屏顶栏残留已修",
           "updated_at": "2026-11-06T05:38:51Z",
           "os_min_version": "1.2.0",
           "packages": {
@@ -124,6 +124,18 @@
               "download_url": "./meow/meow_1.0.9_arm.fpk",
               "sha256": "8c452d8a4c8c73271ebaf38a150a99cbbfe54ae27efc95aeae58f1b53b128781",
               "size": 12201819
+            }
+          }
+        },
+        "1.1.4": {
+          "changelog": "1. 修复设置页升级时读不到应用所在存储卷的问题，避免装到错误分区",
+          "updated_at": "2026-11-06T13:00:24Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.1.4_x86.fpk",
+              "sha256": "0cf4316069ab191015e4de1fcffea6c11230701b1e83b6bb42f627657081f40f",
+              "size": 19607900
             }
           }
         }
