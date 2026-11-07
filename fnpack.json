@@ -93,6 +93,18 @@
       "is_docker": false,
       "service_port": "30010",
       "releases": {
+        "1.1.5": {
+          "changelog": "1. 修复应用内更新偶尔下载到旧安装包的问题",
+          "updated_at": "2026-11-07T03:17:23Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/c5dc8c8cdf451324ec756859b6dc12016006fa3b/meow/meow_1.1.5_x86.fpk",
+              "sha256": "7c73adbed70e1fc41cca843669c7a714fa42cc1fce4fdb7e0d4e2d00b093cdf4",
+              "size": 19606982
+            }
+          }
+        },
         "1.0.8": {
           "changelog": "首个 FnDepot 版本：原生 fnOS 应用（无头 Rust 壳 + Java 后端），依赖 java-21-openjdk；Web 端 + 聚合搜索 + 弹幕代理。",
           "updated_at": "2026-11-06T11:04:13+08:00",
