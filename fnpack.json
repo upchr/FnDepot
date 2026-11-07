@@ -133,7 +133,7 @@
           "os_min_version": "1.2.0",
           "packages": {
             "x86": {
-              "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/097bdd8a01b72eaf3a5eadcdd732c834504cbbe8/meow/meow_1.1.4_x86.fpk",
+              "download_url": "./meow/meow_1.1.4_x86_b2.fpk",
               "sha256": "7dcf3f36feb337ae0de6966699b3e5fd6b9268143afce3d198275cab81721d71",
               "size": 19608081
             }
