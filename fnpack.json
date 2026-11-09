@@ -95,13 +95,18 @@
       "releases": {
         "1.1.6": {
           "changelog": "1. 修复飞牛应用中心安装时端口校验误报、点不了下一步的问题",
-          "updated_at": "2026-11-09T09:24:41Z",
+          "updated_at": "2026-11-09T09:43:40Z",
           "os_min_version": "1.2.0",
           "packages": {
             "x86": {
-              "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/6e40388e951a614476c012072aba9b7f4909d810/meow/meow_1.1.6_x86.fpk",
-              "sha256": "ca291de8370f74062fc99cf3162e868d46bdc7d7be741f740456ad78fd8033dc",
-              "size": 20403020
+              "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/29bc2bf30cb77c586b4964739b392823a2615152/meow/meow_1.1.6_x86.fpk",
+              "sha256": "8f09b46f777b5077737a27ff9eae4de5d43bea41318fcf1ff283e564b45f196a",
+              "size": 20404496
+            },
+            "arm": {
+              "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/29bc2bf30cb77c586b4964739b392823a2615152/meow/meow_1.1.6_arm.fpk",
+              "sha256": "45b69ade4897d672bcce765e60820033baf7325d327e25b79e0f9c2e36bbc480",
+              "size": 20372758
             }
           }
         },
