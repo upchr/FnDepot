@@ -93,6 +93,18 @@
       "is_docker": false,
       "service_port": "30010",
       "releases": {
+        "1.1.6": {
+          "changelog": "1. 修复飞牛应用中心安装时端口校验误报、点不了下一步的问题",
+          "updated_at": "2026-11-09T09:24:41Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/6e40388e951a614476c012072aba9b7f4909d810/meow/meow_1.1.6_x86.fpk",
+              "sha256": "ca291de8370f74062fc99cf3162e868d46bdc7d7be741f740456ad78fd8033dc",
+              "size": 20403020
+            }
+          }
+        },
         "1.1.5": {
           "changelog": "1. 修复应用内更新偶尔下载到旧安装包的问题",
           "updated_at": "2026-11-07T03:17:23Z",
