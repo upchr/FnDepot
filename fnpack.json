@@ -112,13 +112,18 @@
         },
         "1.1.5": {
           "changelog": "1. 修复应用内更新偶尔下载到旧安装包的问题",
-          "updated_at": "2026-11-07T03:17:23Z",
+          "updated_at": "2026-11-09T10:18:28Z",
           "os_min_version": "1.2.0",
           "packages": {
             "x86": {
-              "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/c5dc8c8cdf451324ec756859b6dc12016006fa3b/meow/meow_1.1.5_x86.fpk",
-              "sha256": "7c73adbed70e1fc41cca843669c7a714fa42cc1fce4fdb7e0d4e2d00b093cdf4",
-              "size": 19606982
+              "download_url": "./meow/meow_1.1.5_x86.fpk",
+              "sha256": "aa71b7f160df8e8052900d31e0c4af63b5b785ced117889cab5e2c36d9ee6db5",
+              "size": 20409065
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.1.5_arm.fpk",
+              "sha256": "f3e333a3d9e7102a0a944414a2060cc67a1effe13868fd3ff3b4a67c182d616b",
+              "size": 20372285
             }
           }
         },
