@@ -94,19 +94,19 @@
       "service_port": "30010",
       "releases": {
         "1.1.6": {
-          "changelog": "1. 修复飞牛应用中心安装时端口校验误报、点不了下一步的问题",
-          "updated_at": "2026-11-09T09:43:40Z",
+          "changelog": "1. 修复飞牛应用中心安装时端口校验误报、点不了下一步的问题\n2. 修复直播源快捷添加后内置源从设置页消失的问题\n3. 直播源设置新增 8 个常用国家快捷按钮和「更多国家」全量列表\n4. 修复 TV 首页分类胶囊用遥控器右键时焦点跑出屏幕的问题\n5. 空壳不再显示没有实现的默认站点，只保留真正可用的源",
+          "updated_at": "2026-11-10T08:28:12Z",
           "os_min_version": "1.2.0",
           "packages": {
             "x86": {
-              "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/29bc2bf30cb77c586b4964739b392823a2615152/meow/meow_1.1.6_x86.fpk",
-              "sha256": "8f09b46f777b5077737a27ff9eae4de5d43bea41318fcf1ff283e564b45f196a",
-              "size": 20404496
+              "download_url": "./meow/meow_1.1.6_x86.fpk",
+              "sha256": "912eb61c3499494970a25fcf74b72a3331f7039d9da1d8dc5b91baa0490dbf4d",
+              "size": 20411166
             },
             "arm": {
-              "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/29bc2bf30cb77c586b4964739b392823a2615152/meow/meow_1.1.6_arm.fpk",
-              "sha256": "45b69ade4897d672bcce765e60820033baf7325d327e25b79e0f9c2e36bbc480",
-              "size": 20372758
+              "download_url": "./meow/meow_1.1.6_arm.fpk",
+              "sha256": "c75ee0d34bac2e50f436408baa43acd13249da44799d11c24050d9be14ad68a1",
+              "size": 20377620
             }
           }
         },
