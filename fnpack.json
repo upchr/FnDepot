@@ -172,6 +172,23 @@
               "size": 19608081
             }
           }
+        },
+        "1.1.7": {
+          "changelog": "1. 设置页统一重排：重连与单动作磁贴改普通按钮，开关样式归一\n2. TV 设置字号定级：分组标题 14px，不再出现正文比标题大的错层\n3. TV 设置页左右键可跳进右栏，15 个分区全部遥控可达\n4. 更新中心逐项出检查按钮，状态区分未安装与未检查\n5. 远程调试并入维护分区，不再单独成区\n6. 更新源等说明文字缩进对齐，GitHub 加速改用统一开关",
+          "updated_at": "2026-11-11T11:47:18Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.1.7_x86.fpk",
+              "sha256": "ded09552b10f6caf71c7ed5fb1480053ecedccd86de0d59a8cc4f8c1307d1058",
+              "size": 39525868
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.1.7_arm.fpk",
+              "sha256": "1cb4f01dc586d3c8c3b8a3213df96ec5efd6532dcaca8f9dab0e7774ee7e413f",
+              "size": 39493638
+            }
+          }
         }
       }
     }
