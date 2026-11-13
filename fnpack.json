@@ -291,6 +291,23 @@
               "size": 39514930
             }
           }
+        },
+        "1.2.7": {
+          "changelog": "1. 修复网络差时「检查更新」一直转圈、加速线路被跳过的问题\n2. 电视上模块与弹幕检查不再卡住页面，最多等 25 秒给结论\n3. 更新检查不再重复下载已是最新的模块与弹幕组件",
+          "updated_at": "2026-11-13T14:08:37Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.7_x86.fpk",
+              "sha256": "37d1ec08984211c7a9cde93b8b98136b793f25a96d725c3c348ccfecd860057a",
+              "size": 39557939
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.7_arm.fpk",
+              "sha256": "8904a1bb75938739b53ef0ecb425f6316a40b24157dbf449aad8cf3fea6da458",
+              "size": 39517185
+            }
+          }
         }
       }
     }
