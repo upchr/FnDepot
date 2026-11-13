@@ -223,6 +223,23 @@
               "size": 39513165
             }
           }
+        },
+        "1.2.2": {
+          "changelog": "1. 在线更新一步到位：点「下载并安装」，下完直接调起安装器\n2. 修复更新弹框点「安装」又重新下载、反复装不上的死循环\n3. 更新弹框支持方向键上下滚动，查看完整更新说明\n4. 更新下载遇到慢线路自动换加速线路，不再卡在直连",
+          "updated_at": "2026-11-13T04:05:36Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.2_x86.fpk",
+              "sha256": "6fda8d148518be7217ad0e5fe82c6d2a8e9c8316c3e2144198f02cc28f1cd27b",
+              "size": 39550589
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.2_arm.fpk",
+              "sha256": "c63d5c41af8e9cfd39dbea66a2a74574aae86edbc7b95d40eb22c7e4e4cca64f",
+              "size": 39514947
+            }
+          }
         }
       }
     }
