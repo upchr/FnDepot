@@ -274,6 +274,23 @@
               "size": 39514553
             }
           }
+        },
+        "1.2.6": {
+          "changelog": "1. 修复电视上「运行时模块」点检查更新必定下载失败的问题\n2. 电视模块与弹幕组件已是最新时，不再重复下载安装包\n3. 电视拉模块清单优先走可用的加速线路，弱网也能检查成功\n4. 内置更新源改为主仓正式发布地址，弱网环境更稳定",
+          "updated_at": "2026-11-13T11:37:06Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.6_x86.fpk",
+              "sha256": "d867b7506f3a58f3f0c3bff908f88a04cca45a84acfe4c9b49aff2d92eea9478",
+              "size": 39552382
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.6_arm.fpk",
+              "sha256": "ba40dbf325d41855d89f543391f3659aac900b39b2fc735bad6e19be63e6b301",
+              "size": 39514930
+            }
+          }
         }
       }
     }
