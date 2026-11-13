@@ -240,6 +240,23 @@
               "size": 39514947
             }
           }
+        },
+        "1.2.4": {
+          "changelog": "1. 应用更新按钮改名「更新」：点一下下载完直接调起安装器\n2. 修复电视上「更新源」输入框点不进去、填了也存不上的问题",
+          "updated_at": "2026-11-13T04:36:54Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.4_x86.fpk",
+              "sha256": "65831e0831e95aa504fbbd6fb7977a230a67d652f89b6ca4bf2fc57884c10973",
+              "size": 39555443
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.4_arm.fpk",
+              "sha256": "b4cc277814b8b2c18276087c60e1ce4a263e2ff818c9633084dccaaf1fc3510b",
+              "size": 39514086
+            }
+          }
         }
       }
     }
