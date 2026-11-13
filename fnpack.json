@@ -260,18 +260,18 @@
         },
         "1.2.5": {
           "changelog": "1. 电视上「更新源」改成和搜索框一样直接输入，不再弹对话框",
-          "updated_at": "2026-11-13T05:05:19Z",
+          "updated_at": "2026-11-13T06:41:11Z",
           "os_min_version": "1.2.0",
           "packages": {
             "x86": {
               "download_url": "./meow/meow_1.2.5_x86.fpk",
-              "sha256": "8c81db978fd1aa1b4315f9b618a67996c514963a8bbbe13e456d6c68b4d47907",
-              "size": 39549063
+              "sha256": "2fa7b113f2eb2b8ec041119824b396f12fb8cdafea588eae198560ad0f1ab02a",
+              "size": 39547220
             },
             "arm": {
               "download_url": "./meow/meow_1.2.5_arm.fpk",
-              "sha256": "e8b4525438de840a0d0a8ac686a22691cfdd3ddc59c751f1c2dc3133815d04a3",
-              "size": 39513568
+              "sha256": "ad3f26016dc827f116c13a27a8c4bf2739e756316f03d7f23b41fdf4010c136d",
+              "size": 39514553
             }
           }
         }
