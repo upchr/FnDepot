@@ -164,7 +164,7 @@ FnDepot/
 | 应用 | 显示名 | 架构 | 包 |
 |---|---|---|---|
 | `toolsplus` | ToolsPlus | all（docker） | `toolsplus/toolsplus_3.6.6.fpk`、`toolsplus_3.6.7.fpk` |
-| `meow` | 猫窝 Meow | x86 / arm（非 docker，`service_port` 30010） | `meow/meow_<版本>_<架构>.fpk`；现为 1.2.7、1.2.9、1.2.10 |
+| `meow` | 猫窝 Meow | x86 / arm（非 docker，`service_port` 30010） | `meow/meow_<版本>_<架构>.fpk`，每版两包，索引里保留最近 3 个版本 |
 
 各应用的功能、依赖与端口说明见各自目录下的 `README.md`：
 
