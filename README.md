@@ -23,11 +23,13 @@ FnDepot/
 └── meow/
     ├── ICON.PNG
     ├── README.md
-    ├── meow_1.0.8_x86.fpk
-    └── meow_1.0.8_arm.fpk
+    ├── Preview/1.png … 5.png
+    └── meow_<版本>_<架构>.fpk      # 每版 x86 / arm 两个包，只保留最近 3 版
 ```
 
 约定：索引里 `apps` 的 key 必须与目录名一致（`toolsplus` ↔ `toolsplus/`，`meow` ↔ `meow/`）。
+**meow 只保留最近 3 个版本**（发版时由 CI 自动精简，`fpk.yml` 的 `keep` 输入），
+`toolsplus` 不受此限。
 
 ---
 
@@ -135,7 +137,8 @@ FnDepot/
 ## 二、新增一个版本
 
 1. **构建**：产出安装包，文件名带版本号，例如 `toolsplus_3.6.8.fpk`（下划线分隔，与目录内既有命名一致）。
-2. **入库**：放进对应应用目录（`toolsplus/`、`meow/`），**不要覆盖上一版文件**——旧版本的索记录依赖旧文件保持原样。
+2. **入库**：放进对应应用目录（`toolsplus/`、`meow/`），**不要覆盖上一版文件**——旧版本的索引记录依赖旧文件保持原样。
+   meow 的旧版本由 CI 的 `keep=3` 自动清理（连同索引条目），**不要手工删条目**：文件和条目必须在同一个提交里消失。
 3. **记录**：在 `fnpack.json` 追加 `apps.<app>.releases["<版本>"]`，`changelog` / `updated_at` / `packages` 全部填写，
    `sha256` 与 `size` 用刚构建出的文件实测值，不能用旧值。
 4. **提交**：一应用一版一提交，提交信息形如 `chore(toolsplus): release v3.6.8`。
@@ -161,14 +164,14 @@ FnDepot/
 | 应用 | 显示名 | 架构 | 包 |
 |---|---|---|---|
 | `toolsplus` | ToolsPlus | all（docker） | `toolsplus/toolsplus_3.6.6.fpk`、`toolsplus_3.6.7.fpk` |
-| `meow` | 猫窝 Meow | x86 / arm | `meow/meow_1.0.8_x86.fpk`、`meow_1.0.8_arm.fpk` |
+| `meow` | 猫窝 Meow | x86 / arm（非 docker，`service_port` 30010） | `meow/meow_<版本>_<架构>.fpk`；现为 1.2.7、1.2.9、1.2.10 |
 
 各应用的功能、依赖与端口说明见各自目录下的 `README.md`：
 
 - [toolsplus/README.md](./toolsplus/README.md)
 - [meow/README.md](./meow/README.md)
 - ToolsPlus 源码：[upchr/mytool](https://github.com/upchr/mytool) · 体验：[upchr.github.io/mytool](https://upchr.github.io/mytool/)
-- 猫窝 Meow 源码：[upchr/meow](https://github.com/upchr/meow)
+- 猫窝 Meow 源码：[upchr/meow](https://github.com/upchr/meow) · 文档：[upchr.github.io/meow](https://upchr.github.io/meow/)
 
 ---
 
