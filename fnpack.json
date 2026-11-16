@@ -93,23 +93,6 @@
       "is_docker": false,
       "service_port": "30010",
       "releases": {
-        "1.2.9": {
-          "changelog": "1. 播放页左右滑动即可调节进度，松手生效，触屏和鼠标拖动都支持\n2. 从原生播放器返回播放页可直接继续播放，不再需要退出重进\n3. 已缓冲的播放不再被迟到的线路超时提示打断\n4. 手选弹幕按所选源加载，不再出现其他剧的缓存弹幕\n5. 详情页新增「去搜索」，一键搜索该剧的其他源\n6. fnOS：浏览器直连 30010 不再黑屏",
-          "updated_at": "2026-11-16T04:00:12Z",
-          "os_min_version": "1.2.0",
-          "packages": {
-            "x86": {
-              "download_url": "./meow/meow_1.2.9_x86.fpk",
-              "sha256": "b5a164266a5fa29e7033429d094e91493627c26047b1c38534e1aeb045a0e585",
-              "size": 39562390
-            },
-            "arm": {
-              "download_url": "./meow/meow_1.2.9_arm.fpk",
-              "sha256": "dae78b43f1cbca27cff31c8a338f3e4374729365f341e5cdfe7c082d3e379fdf",
-              "size": 39524579
-            }
-          }
-        },
         "1.2.10": {
           "changelog": "1. fnOS 安装包从 38MB 减到 22MB，下载与升级更快\n2. fnOS 安装包里不再附带用不到的转换工具，安装占用更小",
           "updated_at": "2026-11-16T04:11:12Z",
@@ -144,20 +127,20 @@
             }
           }
         },
-        "1.2.8": {
-          "changelog": "1. 修复按返回键或点空白关闭更新弹框后，这个版本再也不提示的问题\n2. 被「稍后」的版本在更新中心如实显示「已跳过」，不再冒充已是最新\n3. 更新检查会记录每条加速线路的成败与耗时，出问题好排查",
-          "updated_at": "2026-11-16T06:20:11Z",
+        "1.2.12": {
+          "changelog": "1. 投屏：手机 / PC 可把正在看的片投给电视或投影，进度可回传\n2. fnOS 应用启动后不再闪退或被旧进程占住端口\n3. fnOS 应用也会弹更新提示，可点「稍后」跳过这个版本\n4. 更新中心两处版本号一致，直连 30010 不再显示无效更新行\n5. TV / PC 连 NAS 后端时会提示「后端可升级」\n6. 首屏网络抖动自动重试两次；新增 MCP 操作指南与 skill",
+          "updated_at": "2026-11-16T10:42:06Z",
           "os_min_version": "1.2.0",
           "packages": {
             "x86": {
-              "download_url": "./meow/meow_1.2.8_x86.fpk",
-              "sha256": "43a31a9fe4aa5a4e9240aa4b348cce4d01aafc1cef1dcff023271886a29b5409",
-              "size": 39552566
+              "download_url": "./meow/meow_1.2.12_x86.fpk",
+              "sha256": "6a2dbf4a5f2dd77820729c08bfd305f9f6ad53a77f360e1307a50a2c57df0494",
+              "size": 21973591
             },
             "arm": {
-              "download_url": "./meow/meow_1.2.8_arm.fpk",
-              "sha256": "61b504d1563eb08b28b481296de4ef738f19120cf7984254799bf05353aa144f",
-              "size": 39518074
+              "download_url": "./meow/meow_1.2.12_arm.fpk",
+              "sha256": "944ce227c825223023830418f9cc645bafcbd82ae54381acdfe4c1a9ae1e1083",
+              "size": 21938859
             }
           }
         }
