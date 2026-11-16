@@ -94,31 +94,36 @@
       "service_port": "30010",
       "releases": {
         "1.1.6": {
-          "changelog": "1. 修复飞牛应用中心安装时端口校验误报、点不了下一步的问题",
-          "updated_at": "2026-11-09T09:43:40Z",
+          "changelog": "1. 修复飞牛应用中心安装时端口校验误报、点不了下一步的问题\n2. 修复直播源快捷添加后内置源从设置页消失的问题\n3. 直播源设置新增 8 个常用国家快捷按钮和「更多国家」全量列表\n4. 修复 TV 首页分类胶囊用遥控器右键时焦点跑出屏幕的问题\n5. 空壳不再显示没有实现的默认站点，只保留真正可用的源",
+          "updated_at": "2026-11-10T08:28:12Z",
           "os_min_version": "1.2.0",
           "packages": {
             "x86": {
-              "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/29bc2bf30cb77c586b4964739b392823a2615152/meow/meow_1.1.6_x86.fpk",
-              "sha256": "8f09b46f777b5077737a27ff9eae4de5d43bea41318fcf1ff283e564b45f196a",
-              "size": 20404496
+              "download_url": "./meow/meow_1.1.6_x86.fpk",
+              "sha256": "912eb61c3499494970a25fcf74b72a3331f7039d9da1d8dc5b91baa0490dbf4d",
+              "size": 20411166
             },
             "arm": {
-              "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/29bc2bf30cb77c586b4964739b392823a2615152/meow/meow_1.1.6_arm.fpk",
-              "sha256": "45b69ade4897d672bcce765e60820033baf7325d327e25b79e0f9c2e36bbc480",
-              "size": 20372758
+              "download_url": "./meow/meow_1.1.6_arm.fpk",
+              "sha256": "c75ee0d34bac2e50f436408baa43acd13249da44799d11c24050d9be14ad68a1",
+              "size": 20377620
             }
           }
         },
         "1.1.5": {
           "changelog": "1. 修复应用内更新偶尔下载到旧安装包的问题",
-          "updated_at": "2026-11-07T03:17:23Z",
+          "updated_at": "2026-11-09T10:18:28Z",
           "os_min_version": "1.2.0",
           "packages": {
             "x86": {
-              "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/c5dc8c8cdf451324ec756859b6dc12016006fa3b/meow/meow_1.1.5_x86.fpk",
-              "sha256": "7c73adbed70e1fc41cca843669c7a714fa42cc1fce4fdb7e0d4e2d00b093cdf4",
-              "size": 19606982
+              "download_url": "./meow/meow_1.1.5_x86.fpk",
+              "sha256": "aa71b7f160df8e8052900d31e0c4af63b5b785ced117889cab5e2c36d9ee6db5",
+              "size": 20409065
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.1.5_arm.fpk",
+              "sha256": "f3e333a3d9e7102a0a944414a2060cc67a1effe13868fd3ff3b4a67c182d616b",
+              "size": 20372285
             }
           }
         },
@@ -165,6 +170,159 @@
               "download_url": "https://raw.githubusercontent.com/upchr/FnDepot/99269932f474d8b542c44d7caa6222230f4cb0fc/meow/meow_1.1.4_x86_b2.fpk",
               "sha256": "7dcf3f36feb337ae0de6966699b3e5fd6b9268143afce3d198275cab81721d71",
               "size": 19608081
+            }
+          }
+        },
+        "1.1.7": {
+          "changelog": "1. 设置页统一重排：重连与单动作磁贴改普通按钮，开关样式归一\n2. TV 设置字号定级：分组标题 14px，不再出现正文比标题大的错层\n3. TV 设置页左右键可跳进右栏，15 个分区全部遥控可达\n4. 更新中心逐项出检查按钮，状态区分未安装与未检查\n5. 远程调试并入维护分区，不再单独成区\n6. 更新源等说明文字缩进对齐，GitHub 加速改用统一开关",
+          "updated_at": "2026-11-11T11:47:18Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.1.7_x86.fpk",
+              "sha256": "ded09552b10f6caf71c7ed5fb1480053ecedccd86de0d59a8cc4f8c1307d1058",
+              "size": 39525868
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.1.7_arm.fpk",
+              "sha256": "1cb4f01dc586d3c8c3b8a3213df96ec5efd6532dcaca8f9dab0e7774ee7e413f",
+              "size": 39493638
+            }
+          }
+        },
+        "1.2.0": {
+          "changelog": "1. PC 全新安装后「本机插件」列表恢复，可直接安装影视后端等插件\n2. 修复 TV 运行时模块下载完成却弹不出安装器、模块装不上的问题\n3. 老设备（安卓 9 电视/投影仪）页面间距与按钮布局错乱修复\n4. 老设备上收藏保存、WebDAV 同步、更新检查不再报错\n5. 直播缓冲提示与卡顿自动恢复，换台更稳\n6. 手机竖屏补齐直播/片库入口、线路切换与上/下一集按钮",
+          "updated_at": "2026-11-12T04:52:51Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.0_x86.fpk",
+              "sha256": "1760bbe1112c53d77d5b62fa19dcbf0819e7b2a8ed130fbe6aa009048c3bc7f9",
+              "size": 39531807
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.0_arm.fpk",
+              "sha256": "ef5fa231b0af107b8533e4d9acbfd8eae8d9df3110317d5fc7683230e352a23b",
+              "size": 39501286
+            }
+          }
+        },
+        "1.2.1": {
+          "changelog": "1. 手机竖屏改版：底栏五项入口，历史/收藏/片库并入「我的」页\n2. 播放器手势重做：单击只切控制栏、长按快进退；修 TV 控制栏闪退\n3. 首页支持下拉刷新；搜索自动收键盘、历史可单条删除、单站翻页\n4. 片库海报刮削 8 项优化 + 本地目录按设备选择添加入口\n5. 浅色主题全面修正：控件统一三档、选中态实心主题色、原生弹框\n6. 设置页更新检查提速可取消；直播竖屏返回键与分类台卡片改版",
+          "updated_at": "2026-11-13T02:30:28Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.1_x86.fpk",
+              "sha256": "20f3f50c49c1d42b5ae48ddca4ef9822b7f3b80a563473598c6134a5a47d1ec4",
+              "size": 39547950
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.1_arm.fpk",
+              "sha256": "a4de87d66877851fa88ea54b6a590df7e4e04ddf1998659de943e74d089e4960",
+              "size": 39513165
+            }
+          }
+        },
+        "1.2.2": {
+          "changelog": "1. 在线更新一步到位：点「下载并安装」，下完直接调起安装器\n2. 修复更新弹框点「安装」又重新下载、反复装不上的死循环\n3. 更新弹框支持方向键上下滚动，查看完整更新说明\n4. 更新下载遇到慢线路自动换加速线路，不再卡在直连",
+          "updated_at": "2026-11-13T04:05:36Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.2_x86.fpk",
+              "sha256": "6fda8d148518be7217ad0e5fe82c6d2a8e9c8316c3e2144198f02cc28f1cd27b",
+              "size": 39550589
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.2_arm.fpk",
+              "sha256": "c63d5c41af8e9cfd39dbea66a2a74574aae86edbc7b95d40eb22c7e4e4cca64f",
+              "size": 39514947
+            }
+          }
+        },
+        "1.2.4": {
+          "changelog": "1. 应用更新按钮改名「更新」：点一下下载完直接调起安装器\n2. 修复电视上「更新源」输入框点不进去、填了也存不上的问题",
+          "updated_at": "2026-11-13T04:36:54Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.4_x86.fpk",
+              "sha256": "65831e0831e95aa504fbbd6fb7977a230a67d652f89b6ca4bf2fc57884c10973",
+              "size": 39555443
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.4_arm.fpk",
+              "sha256": "b4cc277814b8b2c18276087c60e1ce4a263e2ff818c9633084dccaaf1fc3510b",
+              "size": 39514086
+            }
+          }
+        },
+        "1.2.5": {
+          "changelog": "1. 电视上「更新源」改成和搜索框一样直接输入，不再弹对话框",
+          "updated_at": "2026-11-13T06:41:11Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.5_x86.fpk",
+              "sha256": "2fa7b113f2eb2b8ec041119824b396f12fb8cdafea588eae198560ad0f1ab02a",
+              "size": 39547220
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.5_arm.fpk",
+              "sha256": "ad3f26016dc827f116c13a27a8c4bf2739e756316f03d7f23b41fdf4010c136d",
+              "size": 39514553
+            }
+          }
+        },
+        "1.2.6": {
+          "changelog": "1. 修复电视上「运行时模块」点检查更新必定下载失败的问题\n2. 电视模块与弹幕组件已是最新时，不再重复下载安装包\n3. 电视拉模块清单优先走可用的加速线路，弱网也能检查成功\n4. 内置更新源改为主仓正式发布地址，弱网环境更稳定",
+          "updated_at": "2026-11-13T11:37:06Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.6_x86.fpk",
+              "sha256": "d867b7506f3a58f3f0c3bff908f88a04cca45a84acfe4c9b49aff2d92eea9478",
+              "size": 39552382
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.6_arm.fpk",
+              "sha256": "ba40dbf325d41855d89f543391f3659aac900b39b2fc735bad6e19be63e6b301",
+              "size": 39514930
+            }
+          }
+        },
+        "1.2.7": {
+          "changelog": "1. 修复网络差时「检查更新」一直转圈、加速线路被跳过的问题\n2. 电视上模块与弹幕检查不再卡住页面，最多等 25 秒给结论\n3. 更新检查不再重复下载已是最新的模块与弹幕组件",
+          "updated_at": "2026-11-13T14:08:37Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.7_x86.fpk",
+              "sha256": "37d1ec08984211c7a9cde93b8b98136b793f25a96d725c3c348ccfecd860057a",
+              "size": 39557939
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.7_arm.fpk",
+              "sha256": "8904a1bb75938739b53ef0ecb425f6316a40b24157dbf449aad8cf3fea6da458",
+              "size": 39517185
+            }
+          }
+        },
+        "1.2.9": {
+          "changelog": "1. 播放页左右滑动即可调节进度，松手生效，触屏和鼠标拖动都支持\n2. 从原生播放器返回播放页可直接继续播放，不再需要退出重进\n3. 已缓冲的播放不再被迟到的线路超时提示打断\n4. 手选弹幕按所选源加载，不再出现其他剧的缓存弹幕\n5. 详情页新增「去搜索」，一键搜索该剧的其他源\n6. fnOS：浏览器直连 30010 不再黑屏",
+          "updated_at": "2026-11-16T01:44:46Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.9_x86.fpk",
+              "sha256": "b5a164266a5fa29e7033429d094e91493627c26047b1c38534e1aeb045a0e585",
+              "size": 39562390
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.9_arm.fpk",
+              "sha256": "dae78b43f1cbca27cff31c8a338f3e4374729365f341e5cdfe7c082d3e379fdf",
+              "size": 39524579
             }
           }
         }
