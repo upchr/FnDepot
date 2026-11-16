@@ -93,23 +93,6 @@
       "is_docker": false,
       "service_port": "30010",
       "releases": {
-        "1.2.6": {
-          "changelog": "1. 修复电视上「运行时模块」点检查更新必定下载失败的问题\n2. 电视模块与弹幕组件已是最新时，不再重复下载安装包\n3. 电视拉模块清单优先走可用的加速线路，弱网也能检查成功\n4. 内置更新源改为主仓正式发布地址，弱网环境更稳定",
-          "updated_at": "2026-11-13T11:37:06Z",
-          "os_min_version": "1.2.0",
-          "packages": {
-            "x86": {
-              "download_url": "./meow/meow_1.2.6_x86.fpk",
-              "sha256": "d867b7506f3a58f3f0c3bff908f88a04cca45a84acfe4c9b49aff2d92eea9478",
-              "size": 39552382
-            },
-            "arm": {
-              "download_url": "./meow/meow_1.2.6_arm.fpk",
-              "sha256": "ba40dbf325d41855d89f543391f3659aac900b39b2fc735bad6e19be63e6b301",
-              "size": 39514930
-            }
-          }
-        },
         "1.2.7": {
           "changelog": "1. 修复网络差时「检查更新」一直转圈、加速线路被跳过的问题\n2. 电视上模块与弹幕检查不再卡住页面，最多等 25 秒给结论\n3. 更新检查不再重复下载已是最新的模块与弹幕组件",
           "updated_at": "2026-11-13T14:08:37Z",
@@ -141,6 +124,23 @@
               "download_url": "./meow/meow_1.2.9_arm.fpk",
               "sha256": "dae78b43f1cbca27cff31c8a338f3e4374729365f341e5cdfe7c082d3e379fdf",
               "size": 39524579
+            }
+          }
+        },
+        "1.2.10": {
+          "changelog": "1. fnOS 安装包体积减半（38MB → 19MB），下载与升级更快\n2. fnOS 安装包里不再附带用不到的转换工具，安装占用更小",
+          "updated_at": "2026-11-16T04:09:33Z",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "x86": {
+              "download_url": "./meow/meow_1.2.10_x86.fpk",
+              "sha256": "c7ca35a559a1613a8707d9a6861ce92003ce96290b449ab0f0f88e28fd6af978",
+              "size": 21934525
+            },
+            "arm": {
+              "download_url": "./meow/meow_1.2.10_arm.fpk",
+              "sha256": "e22b13f45f0db6f7c5627745e9613ad4c188463133e054e59b0295a9d8cbdd53",
+              "size": 21898727
             }
           }
         }
