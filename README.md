@@ -104,6 +104,12 @@ FnDepot/
 | `service_port` | 应用对外端口（字符串） |
 | `releases` | 版本表，key 为**裸版本号**（如 `3.6.7`，不带 `v` 前缀）；客户端按版本号数值取最大者为最新 |
 
+★ `meow/ICON.PNG` 是**动画 WebP**：文件名还是 `.PNG`，内容是 35 帧扫光动图
+（1s 停顿 + 33×20ms 斜扫 + 5s 停顿，无限循环，512×512）。浏览器按字节嗅探格式，
+后缀和 `Content-Type` 都不影响播放，所以应用中心里它是会动的。**别"顺手"把它转成
+静态 PNG**——一转扫光就没了。生成器在 meow 仓库 `client/apps/fnos/tools/gen-icon-anim.py`
+（`--src/--out/--size/--loop`）。
+
 ### `releases.<版本>` 字段
 
 | 字段 | 说明 |
